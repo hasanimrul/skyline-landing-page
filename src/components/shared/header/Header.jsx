@@ -1,8 +1,10 @@
+"use client"
+import PrimaryBtn from "@/components/elements/buttons/PrimaryBtn";
 import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center pl-32 pr-24 absolute left-0 right-0 top-5">
+    <div className="flex justify-between items-center boxed-content absolute left-0 right-0 top-5">
       <ul className="flex gap-10 text-[14px] text-[#505F98]">
         <li>
           <a href="/">Home</a>
@@ -14,9 +16,7 @@ const Header = () => {
           <a href="/">Contact</a>
         </li>
       </ul>
-      <button className="text-white text-[12px] bg-[#111B47] px-14 py-1">
-        Buy Now
-      </button>
+      <PrimaryBtn btnText={"Buy Now"} />
     </div>
   );
 };

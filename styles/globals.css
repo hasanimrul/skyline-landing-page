@@ -22,3 +22,10 @@ body {
   background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.boxed-content {
+  padding-left: 8rem;
+  padding-right: 6rem;
+}
+
+
