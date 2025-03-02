@@ -11,7 +11,7 @@ const Title = ({ titleText }) => {
   }, []);
   return (
     <>
-      <h1 className="lg:text-4xl md:text-4xl text-xl font-bold text-[#091133] leading-16" data-aos="fade-up">
+      <h1 className="lg:text-4xl md:text-3xl text-xl font-bold text-[#091133] leading-16" data-aos="fade-up">
         {titleText}
       </h1>
     </>

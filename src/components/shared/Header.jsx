@@ -10,7 +10,7 @@ const Header = () => {
     });
   }, []);
   return (
-    <div className="flex justify-between items-center lg:px-24 px-5 absolute left-0 right-0 top-5 z-50" data-aos="fade-down">
+    <div className="flex justify-between items-center lg:px-24 md:px-20 px-5 absolute left-0 right-0 top-5 z-50" data-aos="fade-down">
       <ul className="flex gap-10 text-[14px] text-[#505F98]" >
         <li>
           <a href="/">Home</a>

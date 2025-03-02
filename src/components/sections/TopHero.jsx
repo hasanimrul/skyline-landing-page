@@ -19,11 +19,11 @@ const TopHero = () => {
         backgroundPosition: "right",
         backgroundRepeat: "no-repeat",
       }}
-      className=" lg:py-[22rem] py-20 flex items-center main-container"
+      className=" lg:py-[22rem] md:py-[15rem] py-20 flex items-center main-container"
       data-aos="fade-left"
     >
       <div className="boxed-content flex flex-col items-start gap-5">
-        <h1 className="lg:text-5xl text-2xl font-bold text-[#091133] lg:leading-16" data-aos="fade-up">
+        <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold text-[#091133] lg:leading-16" data-aos="fade-up">
         Introduce Your Product <br /> Quickly & Effectively
         </h1>
         <p className="text-[#505F98] max-w-[60ch] text-sm md:text-lg lg:text-lg" data-aos="fade-up">

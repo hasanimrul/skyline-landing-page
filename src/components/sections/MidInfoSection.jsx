@@ -26,8 +26,8 @@ const MidInfoSection = () => {
   }, []);
 
   return (
-    <div className="main-container lg:py-28">
-      <div className="boxed-content grid lg:grid-cols-2 items-center lg:gap-10 md:gap-10">
+    <div className="main-container lg:py-28 md:py-20">
+      <div className="boxed-content grid lg:grid-cols-2 md:grid-cols-2 items-center lg:gap-10 md:gap-10">
         <div className="flex flex-col items-start lg:gap-5 md:gap-5" data-aos="fade-right">
           <Title titleText={"Light, Fast & Powerful"} />
           <p className="text-[#505F98] lg:text-lg md:text-lg text-sm" data-aos="fade-up">
