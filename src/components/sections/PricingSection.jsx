@@ -12,7 +12,7 @@ const PricingSection = () => {
     });
   }, []);
   return (
-    <div className="main-container lg:py-32 md:py-32 py-10 bg-[#f2f5ff] -mt-10">
+    <div className="main-container lg:py-32 md:py-32 py-10 bg-[#f2f5ff] lg:-mt-10 md:-mt-10 -mt-16">
       <div className="boxed-content flex flex-col items-center lg:gap-10 md:gap-10 gap-5 py-20">
         <Title titleText={"A Price To Suit Everyone"} />
         <p
