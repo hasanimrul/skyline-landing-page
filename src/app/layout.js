@@ -1,7 +1,7 @@
 "use client"
 import "../../styles/globals.css";
-import Header from "@/components/shared/header/Header";
-import Footer from "@/components/shared/footer/Footer";
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
