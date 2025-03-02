@@ -33,3 +33,9 @@ body {
   align-items: center;
 }
 
+
+.curve-top {
+
+ /* rounded edge at the top */
+ clip-path: ellipse(250% 100% at top)
+}

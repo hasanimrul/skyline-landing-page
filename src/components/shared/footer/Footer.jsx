@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
     const socialIcons = [
-        "/assets/icons/fb.svg",
-        "/assets/icons/linkdn.svg",
-        "/assets/icons/twitter.svg",
-        "/assets/icons/yt.svg",
-        "/assets/icons/instagram.svg",
+        "/assets/svg/fb.svg",
+        "/assets/svg/linkdn.svg",
+        "/assets/svg/twitter.svg",
+        "/assets/svg/yt.svg",
+        "/assets/svg/instagram.svg",
     ];
   return (
     <div className="main-container bg-[#E7ECFF] py-10">
