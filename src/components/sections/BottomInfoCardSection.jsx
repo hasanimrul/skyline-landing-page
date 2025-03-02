@@ -7,7 +7,7 @@ const BottomInfoCardSection = () => {
     {
       title: "Light, Fast & Powerful",
       description:
-        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus ",
       shortDescription:
         "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       icon: "/assets/svg/happy_news.svg",
@@ -15,7 +15,7 @@ const BottomInfoCardSection = () => {
     {
       title: "Light, Fast & Powerful",
       description:
-        "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.br /> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus  ",
       shortDescription:
         "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       icon: "/assets/svg/social_influencer.svg",
@@ -23,7 +23,7 @@ const BottomInfoCardSection = () => {
     {
       title: "Light, Fast & Powerful",
       description:
-        "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.br /> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus ",
       shortDescription:
         "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       icon: "/assets/svg/mention.svg",
@@ -35,7 +35,7 @@ const BottomInfoCardSection = () => {
         {cardInfo.map((info, index) => (
           <div
             key={index}
-            className="grid grid-cols-2 gap-10 items-center justify-between py-20"
+            className="grid grid-cols-2 gap-20 items-center justify-between py-20"
           >
             <img src={info.icon} alt="mid info icon" />
             <div className="flex flex-col gap-5 items-start">
