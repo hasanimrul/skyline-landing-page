@@ -6,7 +6,7 @@ const Footer = () => {
         "/assets/svg/linkdn.svg",
         "/assets/svg/twitter.svg",
         "/assets/svg/yt.svg",
-        "/assets/svg/instagram.svg",
+        "/assets/svg/Instagram.svg",
     ];
   return (
     <div className="main-container bg-[#E7ECFF] py-10">
