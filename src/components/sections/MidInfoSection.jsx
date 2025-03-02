@@ -21,7 +21,7 @@ const MidInfoSection = () => {
       <div className="boxed-content grid grid-cols-2 items-center gap-10">
         <div className="flex flex-col items-start gap-5">
           <Title titleText={"Light, Fast & Powerful"} />
-          <p className="text-[#505F98]">
+          <p className="text-[#505F98] text-lg">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus <br />{" "}
@@ -35,7 +35,7 @@ const MidInfoSection = () => {
                 <img src={card.icon} alt="mid info icon" />
                 <div>
                   <h3 className="text-[#091133] font-bold">{card.title}</h3>
-                  <p className="text-[#505F98]">{card.description}</p>
+                  <p className="text-[#5D6970] text-[12px]">{card.description}</p>
                 </div>
               </div>
             ))}

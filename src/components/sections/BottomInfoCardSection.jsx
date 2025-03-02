@@ -31,7 +31,7 @@ const BottomInfoCardSection = () => {
   ];
   return (
     <div className="main-container py-28 curve-top bg-[#ffffff]">
-      <div className="boxed-content flex flex-col gap-20 pb-10">
+      <div className="boxed-content flex flex-col gap-20 pb-10 px-10">
         {cardInfo.map((info, index) => (
           <div
             key={index}
@@ -40,8 +40,8 @@ const BottomInfoCardSection = () => {
             <img src={info.icon} alt="mid info icon" />
             <div className="flex flex-col gap-5 items-start">
               <Title titleText={info.title} />
-              <p className="text-[#505F98]">{info.description}</p>
-              <p className="text-[#505F98]">{info.shortDescription}</p>
+              <p className="text-[#505F98] text-lg">{info.description}</p>
+              <p className="text-[#505F98] text-lg">{info.shortDescription}</p>
               {index === 2 && <PrimaryBtn btnText={"Purchase Now"} />}
             </div>
           </div>

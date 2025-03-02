@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <hr className="my-5 mt-10 h-[1px] border-none bg-[#CDD1D4]" />
         <div className="flex justify-between items-center">
-          <ul className="flex gap-5 text-[14px] text-[#939EA4]">
+          <ul className="flex gap-5 text-[#939EA4]">
             <li>
               <a href="/">Home</a>
             </li>
