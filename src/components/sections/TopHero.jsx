@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryBtn from "../elements/buttons/PrimaryBtn";
 import SecondaryBtn from "../elements/buttons/SecondaryBtn";
+import Title from "../elements/Title";
 
 const TopHero = () => {
   return (
@@ -11,12 +12,10 @@ const TopHero = () => {
         backgroundPosition: "right",
         backgroundRepeat: "no-repeat",
       }}
-      className=" py-[22rem] flex items-center"
+      className=" py-[22rem] flex items-center main-container"
     >
       <div className="boxed-content flex flex-col items-start gap-5">
-        <h1 className="text-5xl font-bold text-[#091133] leading-16">
-        Introduce Your Product <br /> Quickly & Effectively
-        </h1>
+      <Title titleText={"Introduce Your Product Quickly & Effectively"} />
         <p className="text-[#505F98] max-w-[60ch]">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br /> <br />
         mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.

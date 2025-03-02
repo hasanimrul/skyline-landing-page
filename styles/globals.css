@@ -24,8 +24,12 @@ body {
 }
 
 .boxed-content {
-  padding-left: 8rem;
-  padding-right: 6rem;
+  width: min(1440px, 85%);
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 

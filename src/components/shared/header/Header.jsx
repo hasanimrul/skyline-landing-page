@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center boxed-content absolute left-0 right-0 top-5">
+    <div className="flex justify-between items-center px-24 absolute left-0 right-0 top-5">
       <ul className="flex gap-10 text-[14px] text-[#505F98]">
         <li>
           <a href="/">Home</a>

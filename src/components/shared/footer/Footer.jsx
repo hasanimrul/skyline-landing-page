@@ -9,7 +9,7 @@ const Footer = () => {
         "/assets/icons/instagram.svg",
     ];
   return (
-    <div className="bg-[#E7ECFF] py-10">
+    <div className="main-container bg-[#E7ECFF] py-10">
       <div className="boxed-content">
         <div className="flex justify-between items-center">
           <p className="text-[#939EA4] text-[14px]">©2023 Yourcompany</p>
